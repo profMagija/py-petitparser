@@ -1,4 +1,4 @@
-from setuptools import setup
+from setuptools import setup, find_packages
 
 from petitparser import __version__
 
@@ -15,7 +15,7 @@ setup(
     author='Nikola Bebić',
     author_email='nikola.bebic99@gmail.com',
     license='MIT',
-    packages=['petitparser'],
+    packages=find_packages(include=['petitparser', 'petitparser.*']),
     install_requires=[],
     classifiers=[
         'Development Status :: 4 - Beta',
