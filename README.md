@@ -1,5 +1,7 @@
 # PetitParser for Python
 
+[![PyPI version](https://badge.fury.io/py/petitparser.svg)](https://pypi.org/project/petitparser/)
+
 Grammars for programming languages are traditionally specified statically. They are hard to compose and reuse due to ambiguities that inevitably arise. PetitParser combines ideas from scannnerless parsing, parser combinators, parsing expression grammars (PEG) and packrat parsers to model grammars and parsers as objects that can be reconfigured dynamically.
 
 PetitParser was originally implemented in Smalltalk. This Python implementation (and parts of the README as well) is mostly a direct translation of the [Java version](https://github.com/petitparser/java-petitparser).
