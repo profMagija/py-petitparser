@@ -1,4 +1,3 @@
-from ctypes import FormatError
 from petitparser.tools.grammar_definition import (
     GrammarDefinition,
     GrammarParser,
